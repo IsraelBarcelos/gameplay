@@ -27,7 +27,7 @@ export function SignIn() {
           resizeMode='stretch'
         />
 
-        <View> style={styles.content}
+        <View style={styles.content}>
           <Text style={styles.title}>            
             Organize {`\n`}
             suas jogatinas{`\n`}
@@ -39,7 +39,10 @@ export function SignIn() {
             favoritos com seus amigos
           </Text>
 
-          <ButtonIcon />
+          <ButtonIcon 
+            title={"Entrar com discord"} 
+            activeOpacity={0.7}
+          />
         </View>
       </View>
     )
